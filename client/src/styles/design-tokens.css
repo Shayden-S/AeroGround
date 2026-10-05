@@ -1,0 +1,101 @@
+:root {
+  /* Surface & Canvas Colors */
+  --surface: #f8f9ff;
+  --surface-dim: #cbdbf5;
+  --surface-bright: #f8f9ff;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #eff4ff;
+  --surface-container: #e5eeff;
+  --surface-container-high: #dce9ff;
+  --surface-container-highest: #d3e4fe;
+  --background: #f8fafc;
+  --canvas-bg: #f8fafc;
+
+  /* Typography / Text Colors */
+  --on-surface: #0b1c30;
+  --on-surface-variant: #424655;
+  --on-background: #0b1c30;
+  --text-primary: #0b1c30;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-dim: #94a3b8;
+
+  /* Shell & Avionics Dark Palette */
+  --sidebar-bg: #0b192c;
+  --sidebar-active: #1d63ed;
+  --sidebar-text: #94a3b8;
+  --sidebar-text-hover: #ffffff;
+  --sidebar-border: #1e293b;
+  --radar-bg: #0a1322;
+  --radar-card: #0f1c30;
+  --radar-border: #1e3a5f;
+
+  /* Aviation Primary */
+  --primary: #1d63ed;
+  --primary-hover: #174fbe;
+  --primary-dark: #004bc3;
+  --on-primary: #ffffff;
+  --primary-container: #eff6ff;
+  --on-primary-container: #1d63ed;
+  --primary-border: #bfdbfe;
+
+  /* Avionics Secondary */
+  --secondary: #102a43;
+  --secondary-slate: #49607c;
+  --on-secondary: #ffffff;
+
+  /* Operational Status Colors */
+  /* Available / Cleared (Emerald) */
+  --status-available-dot: #059669;
+  --status-available-bg: #ecfdf5;
+  --status-available-text: #065f46;
+  --status-available-border: #a7f3d0;
+
+  /* In Use / Turnaround / Active (Amber) */
+  --status-inuse-dot: #d97706;
+  --status-inuse-bg: #fffbeb;
+  --status-inuse-text: #92400e;
+  --status-inuse-border: #fde68a;
+
+  /* Under Maintenance / Standby (Blue/Indigo/Purple) */
+  --status-maint-dot: #3b82f6;
+  --status-maint-bg: #eff6ff;
+  --status-maint-text: #1e40af;
+  --status-maint-border: #bfdbfe;
+
+  /* Out of Service / Critical Lockout (Crimson) */
+  --status-critical-dot: #dc2626;
+  --status-critical-bg: #fef2f2;
+  --status-critical-text: #991b1b;
+  --status-critical-border: #fecaca;
+
+  /* Standby / Neutral */
+  --status-standby-dot: #64748b;
+  --status-standby-bg: #f1f5f9;
+  --status-standby-text: #334155;
+  --status-standby-border: #e2e8f0;
+
+  /* Borders & Dividers */
+  --border-light: #f1f5f9;
+  --border-default: #e2e8f0;
+  --border-medium: #cbd5e1;
+  --border-focus: #1d63ed;
+
+  /* Elevation Shadows */
+  --shadow-level-1: 0 1px 3px 0 rgba(16, 42, 67, 0.05), 0 1px 2px -1px rgba(16, 42, 67, 0.03);
+  --shadow-level-2: 0 4px 6px -1px rgba(16, 42, 67, 0.08), 0 2px 4px -2px rgba(16, 42, 67, 0.04);
+  --shadow-level-3: 0 20px 25px -5px rgba(16, 42, 67, 0.15), 0 8px 10px -6px rgba(16, 42, 67, 0.08);
+
+  /* Radii */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-full: 9999px;
+
+  /* Dimensions */
+  --sidebar-width: 250px;
+  --sidebar-collapsed-width: 68px;
+  --header-height: 64px;
+}
